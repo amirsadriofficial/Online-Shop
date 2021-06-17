@@ -1,0 +1,287 @@
+/* Fonts */
+@font-face 
+{
+    font-family:'koodak';
+    src:url('../fonts/KoodakBold.eot?#')format('eot'),
+        url('../fonts/KoodakBold.ttf')format('truetype'),
+        url('../fonts/KoodakBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family:'nazanin';
+    src:url('../fonts/Nazanin.eot?#')format('eot'),
+        url('../fonts/Nazanin.ttf')format('truetype'),
+        url('../fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family:'yekan';
+    src:url('../fonts/Yekan.eot?#')format('eot'),
+        url('../fonts/Yekan.ttf')format('truetype'),
+        url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* End Fonts */
+
+/* Header */
+  #header
+    {
+      margin-top: 0px !important;
+      padding-top: 1rem;
+      font-family: "koodak" !important;
+      background: #333;
+      color: white;
+    }    
+
+  #navbar
+    {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+  
+  #header-navbar .navbar-brand  
+    {
+      font-size: 3rem;
+    }
+
+  #header-navbar-item
+    {
+      text-align: center;
+    }
+
+  #header-navbar-item ul
+    {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: center;
+    }
+
+  #header-navbar-item ul li
+    {
+      padding: 1rem;
+      text-align: center;
+    }
+    
+  #header-login-cart,
+  #header-search
+    {
+      text-align: center;
+    }
+    
+  #header-search form
+    {
+      padding-left: 40px;
+    }
+
+  #header-search form button,
+  #header-search form input
+    {
+      justify-content: center;
+    }
+
+  #header-navbar .navbar-brand,  
+  #header-login-cart
+    {
+      padding-top: 2rem !important;
+    }
+  #header-login-cart .nav-link
+    {
+      font-size: 18px;
+    }
+
+  #header-search
+    {
+      padding-top: 3rem !important;
+    }  
+
+  #login-icon,
+  #cart-icon
+    {
+      display: flex;
+      flex-direction: row; 
+      justify-content: start;
+      padding-right: 40px;
+    }
+    
+  #login-icon i,
+  #cart-icon i
+    {
+      align-self: center;
+      padding-left: 10px; 
+      color: #fff;
+    }
+    
+  #login-icon
+    {
+      padding-top: 0px;
+      padding-bottom: 15px;
+    }  
+/* End Header */
+
+/* Landing */
+/* End Landing */
+
+/* Products */
+  .products-card-header-item
+    {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 30px;
+    }
+
+  .products-card-header-item h4
+    {
+      padding: 0px 30px ;
+    }
+
+  .products-card-header .card
+    {
+      display: flex;
+      flex-direction: column;
+    }
+
+  .products-card-header-title
+    {
+      border: 1px solid rgb(99, 93, 93);
+      border-radius: 1rem;
+      padding: 0px 50px;
+      display: inline;
+      background-color: #fff;
+    }
+
+  .products-card-img
+    {
+      width: 250px;
+      height: 300px;
+    }
+
+  .products-card-footer h3
+    {
+      justify-content: center !important;
+      border: 1px solid rgb(99, 93, 93);
+      border-radius: 2rem;
+      padding: 0px 50px;
+      display: inline;
+      background-color: #333;
+    }
+    
+  .products-card-footer h3 a
+    {
+      color: #fff;
+    }
+    
+  .products-card-footer
+    {
+      padding-top: 30px;
+    }
+
+  .products-card-text
+  {
+    text-align: start;
+  } 
+/* End Products */
+
+/* Attributes */
+/* End Attributes */
+
+/* About */
+  #about-text p
+    {
+      font-size: 18px;
+      padding: 20px 40px;
+    }
+
+  .title
+    {
+      padding-top: 20px;
+    }  
+/* End About */
+
+/* Footer */
+  #footer .col-md-3
+    {
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      color: #fff;
+      align-items: center;
+    }
+
+  #footer .col-md-3 a
+    {
+      padding: 10px 0px;
+      color: #fff;
+    }
+
+  #footer .col-md-3 a i
+    {
+      padding: 0px 10px;
+      color: #fff;
+    }  
+
+  #footer .col-md-3 h3
+    {
+      color: #fff;
+    }
+
+  #footer-sponsor p
+    {
+      padding-bottom: 15px;
+      color: #fff;
+    }
+
+  #footer-sponsor a
+    {
+      color: rgb(119, 224, 128);
+    }
+
+/* End Footer */
+
+
+/* Body */
+  *
+    {
+      direction: rtl;
+      font-family: "yekan";
+      color: #333;
+    }
+
+  * a
+    {
+      color:#fff;
+    }
+
+  .hr 
+    {
+      width: 100%;
+      border-top: 0.1rem solid #c7d3e0;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+  .active-hr
+    {
+      height: 2px;
+      background:#007bff;
+      color:#007bff;
+    }
+
+  .underline 
+    {
+      width: 20rem;
+      height: 0.2rem;
+      background-color: #333;
+      margin: 1rem auto 2rem;
+    }  
+/* End Body */

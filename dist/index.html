@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="Amir Sadri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofallow , noindex">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="images/favicon/favicon-3-16.jpg" sizes="16x16">
+    <link rel="icon" href="images/favicon/favicon-3-32.jpg" sizes="32x32">
+    <link rel="icon" href="images/favicon/favicon-3-64.jpg" sizes="64x64">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>آنلاین شاپ</title>
+</head>
+<body>
+    <!-- Header -->
+        <header>
+            <div class="row bg-dark my-5" id="header">
+                <div class="col-md-3" id="header-login-cart">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" id="login-icon">
+                            <i class="far fa-user fa-2x"></i>
+                            <a class="nav-link" href="pages/accounting.html">ورود | ثبت نام</a>
+                        </li>
+                        <li class="nav-item" id="cart-icon">
+                            <i class="fa fa-cart-plus fa-2x"></i>
+                            <a class="nav-link" href="pages/cart.html">سبد خرید</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center" id="header-navbar">
+                    <a class="navbar-brand" href="#">آنلاین شاپ</a> 
+                    <hr class="hr">    
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> -->
+                    <div id="header-navbar-item">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#men" class="nav-link dropdown-toggle" data-toggle="dropdown">مردانه</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">لباس مردانه</a>
+                                    <a href="#" class="dropdown-item">کفش مردانه</a>
+                                    <a href="#" class="dropdown-item">ورزشی مردانه</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#women" class="nav-link dropdown-toggle" data-toggle="dropdown">زنانه</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">لباس زنانه</a>
+                                    <a href="#" class="dropdown-item">کفش زنانه</a>
+                                    <a href="#" class="dropdown-item">ورزشی زنانه</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#child" class="nav-link dropdown-toggle" data-toggle="dropdown">بچگانه</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">نوزاد</a>
+                                    <a href="#" class="dropdown-item">دخترانه</a>
+                                    <a href="#" class="dropdown-item">پسرانه</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#newest">جدیدترین ها</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#specialsale">فروش ویژه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">درباره ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3" id="header-search">
+                    <form class=" mr-auto">
+                        <div class="input-group">
+                            <div class="input-group-prepend order-2">
+                                <button class="btn btn-outline-light" type="button">
+                                جستجو
+                                </button>
+                            </div>
+                            <input type="text" class="form-control" placeholder="جستجوی محصولات..." aria-label="Example text with button addon" aria-describedby="button-addon1"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+    <!-- End Header -->
+
+    <!-- Landing -->
+        <section>
+            <div class="container">
+                <div class="carousel">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="carousel slide"  id="firstslideshow" data-ride="carousel" data-interval="false">
+                                <ol class="carousel-indicators">
+                                    <li data-target="firstslideshow" data-slide-to="0" class="active"></li>
+                                    <li data-target="firstslideshow" data-slide-to="1"></li>
+                                    <li data-target="firstslideshow" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-thumbnil" src="images/root/background.jpg" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnil" src="images/root/background-1.jpg" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnil" src="images/root/background-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#firstslideshow" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#firstslideshow" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Landing -->
+
+    <!-- Products -->
+        <!-- Men -->
+            <section>
+                <div class="container bg-light">
+                    <div class="row my-5">
+                        <!-- Title -->
+                            <div class="col text-center products-card-header">
+                                <h2 class="text-dark products-card-header-title">مردانه</h2>
+                                <div class="products-card-header-item">
+                                    <h4><a class="text-dark" href="#">لباس مردانه</a></h4>
+                                    <h4><a class="text-dark" href="">کفش مردانه</a></h4>
+                                    <h4><a class="text-dark"href="">اسپورت مردانه</a><hr class="active-hr"></h4>
+                                </div>
+                                <hr class="hr">
+                            </div>
+                        <!--  End Title -->
+                        <!-- Card -->
+                            <div class="row px-4 products-card-text">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/for men/men's sports/1.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/for men/men's sports/2.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/for men/men's sports/3.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/for men/men's sports/4.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- End Card -->
+                        <!-- Card Footer -->
+                            <div class="col text-center products-card-footer">
+                                <h3>
+                                    <a href="#">مشاهده همه محصولات</a>
+                                </h3>
+                            </div>
+                        <!-- End Card Footer -->
+                    </div>
+                </div>
+            </section>
+        <!-- End Men -->
+
+        <!-- Women -->
+            <section>
+                <div class="container bg-light">
+                    <div class="row my-5">
+                        <!-- Title -->
+                            <div class="col text-center products-card-header">
+                                <h2 class="text-dark products-card-header-title">زنانه</h2>
+                                <div class="products-card-header-item">
+                                    <h4><a class="text-dark" href="#">لباس زنانه</a><hr class="active-hr"></h4>
+                                    <h4><a class="text-dark" href="">کفش زنانه</a></h4>
+                                    <h4><a class="text-dark"href="">اسپورت زنانه</a></h4>
+                                </div>
+                                <hr class="hr">
+                            </div>
+                        <!--  End Title -->
+                        <!-- Card -->
+                            <div class="row px-4 products-card-text">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products//feminine/women 's dress/1.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products//feminine/women 's dress/2.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products//feminine/women 's dress//3.webp" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products//feminine/women 's dress/4.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- End Card -->
+                        <!-- Card Footer -->
+                            <div class="col text-center products-card-footer">
+                                <h3 id="card-products"><a href="#">مشاهده همه محصولات</a></h3>
+                            </div>
+                        <!-- End Card Footer -->
+                    </div>
+                </div>
+            </section>
+        <!-- End Women -->
+
+        <!-- Child -->
+            <section>
+                <div class="container bg-light">
+                    <div class="row my-5">
+                        <!-- Title -->
+                            <div class="col text-center products-card-header">
+                                <h2 class="text-dark products-card-header-title">بچگانه</h2>
+                                <div class="products-card-header-item">
+                                    <h4><a class="text-dark" href="#">نوزاد</a><hr class="active-hr"></h4>
+                                    <h4><a class="text-dark" href="">دخترانه</a></h4>
+                                    <h4><a class="text-dark"href="">پسرانه</a></h4>
+                                </div>
+                                <hr class="hr">
+                            </div>
+                        <!--  End Title -->
+                        <!-- Card -->
+                            <div class="row px-4 products-card-text">
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/childish/baby/1.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/childish/baby/2.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/childish/baby/3.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="card">
+                                        <img class="products-card-img" src="images/products/childish/baby/4.jpg" alt="" class="cars-img-body img-thumbnil">
+                                        <div class="card-body">
+                                            <h5 class="card-title">نام: نام محصول</h5>
+                                            <p class="card-text">مشخصات: مشخصات و مدل محصول</p>
+                                            <h6 class="card-title">قیمت: قیمت به تومان</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- End Card -->
+                        <!-- Card Footer -->
+                            <div class="col text-center products-card-footer">
+                                <h3 id="card-products"><a href="#">مشاهده همه محصولات</a></h3>
+                            </div>
+                        <!-- End Card Footer -->
+                    </div>
+                </div>
+            </section>
+        <!-- End Child -->
+    <!-- End Products -->
+
+    <!-- Attributes -->
+        <section class="py-2">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-4 mb-5">
+                        <img src="https://www.banimode.com/themes/new/assets/images/icon/delivery.svg" alt="تحویل سریع و آسان" title="تحویل سریع و آسان">
+                        <h3 class="text-secondary">تحویل سریع و آسان</h3>
+                        <p class="text-muted my-4">
+                            ارسال رایگان و تحویل در زمان انتخابی مشتری به سریعترین شکل ممکن میباشد
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mb-5">
+                        <img src="https://www.banimode.com/themes/new/assets/images/icon/originality.svg" alt="ضمانت اصالت" title="ضمانت اصالت">
+                        <h3 class="text-secondary">ضمانت اصالت</h3>
+                        <p class="text-muted my-4">
+                            تمام کالا ها اورجینال و با ضمانت اصل بودن از نمایندگی معتبر تهیه و ارایه میشوند
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mb-5">
+                        <img src="https://www.banimode.com/themes/new/assets/images/icon/warranty.svg?ver=2" alt="ضمانت بازگشت کالا" title="ضمانت بازگشت کالا">
+                        <h3 class="text-secondary">ضمانت بازگشت کالا</h3>
+                        <p class="text-muted my-4">
+                            تا 15 روز برای احترام به انتخاب مشتریان کالای خریداری شده برگردانده میشود.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End Attributes -->
+  
+    <!-- About -->
+        <section>
+            <div class="container bg-light mb-5">
+                <div class="area text-center">
+                    <div class="col">
+                        <h2 class="title">درباره ما</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="row" id="about-text">
+                        <p>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                            و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+                            و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                            کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                            تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی،
+                            و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت 
+                            که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد 
+                            و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته 
+                            اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End About -->
+    
+    <!-- Footer -->
+        <footer class="bg-dark">
+            <div class="container">
+                <div id="footer">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3>محصولات</h3>
+                            <a href="#">مردانه</a>
+                            <a href="#">زنانه</a>
+                            <a href="#">بچگانه</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>اطلاعات آنلاین شاپ</h3>
+                            <a href="#">درباره ما</a>
+                            <a href="#">حریم خصوصی</a>
+                            <a href="#">شرایط و قوانین</a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>شبکه های مجازی:</h3>
+                            <a href="https://www.instagram.com/sadri.jewelry/">
+                                اینستاگرام
+                                <i class="fab fa-instagram fa-1.5x">
+                                </i>
+                            </a>
+                            <a href="https://www.instagram.com/sadri.jewelry/">
+                                تلگرام
+                                <i class="fab fa-telegram fa-1.5x">
+                                </i>
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>تلفن پشتیبانی:</h3>
+                            <a href="#">00000000000</a>
+                        </div>
+                    </div>
+                    <div class="col text-center" id="footer-sponsor">
+                        <hr class="hr">
+                        <p>
+                            کلیه حقوق مادی و معنوی این وب سایت متعلق به
+                            <a href="#">
+                                شرکت نرم افزاریِ سایت
+                            </a>
+                            می باشد .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!-- End Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
