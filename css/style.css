@@ -213,7 +213,7 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
-  
+
   #footer .col-md-3
     {
       display: flex;
@@ -243,6 +243,7 @@
   #footer-sponsor p
     {
       padding-bottom: 15px;
+      margin-bottom: 0px;
       color: #fff;
     }
 
