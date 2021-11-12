@@ -38,6 +38,7 @@
       font-family: "koodak" !important;
       background: #333;
       color: white;
+      width: 100vw !important;
     }    
 
   #navbar
@@ -289,6 +290,7 @@
 
   * a
     {
+      text-decoration: none;
       color:#fff;
     }
 
@@ -314,4 +316,8 @@
       background-color: #333;
       margin: 1rem auto 2rem;
     }  
+
+  html{
+    width: 100vw !important;
+  }  
 /* End Body */
