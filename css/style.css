@@ -213,6 +213,7 @@
   #Footer{
     margin-bottom: 0px;
     padding-bottom: 0px;
+    width: 100vw !important;
   }
 
   #footer .col-md-3
@@ -315,9 +316,5 @@
       height: 0.2rem;
       background-color: #333;
       margin: 1rem auto 2rem;
-    }  
-
-  html{
-    width: 100vw !important;
-  }  
+    }   
 /* End Body */
