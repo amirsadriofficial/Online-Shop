@@ -21,79 +21,77 @@
 </head>
 <body>
     <!-- Header -->
-        <header class="container">
-            <div class="row bg-dark my-5" id="header">
-                <div class="col-md-3" id="header-login-cart">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item" id="login-icon">
-                            <i class="far fa-user fa-2x"></i>
-                            <a class="nav-link" href="pages/accounting.html">ورود | ثبت نام</a>
+        <header class="row bg-dark my-5" id="header">
+            <div class="col-md-3" id="header-login-cart">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="login-icon">
+                        <i class="far fa-user fa-2x"></i>
+                        <a class="nav-link" href="pages/accounting.html">ورود | ثبت نام</a>
+                    </li>
+                    <li class="nav-item" id="cart-icon">
+                        <i class="fa fa-cart-plus fa-2x"></i>
+                        <a class="nav-link" href="pages/cart.html">سبد خرید</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center" id="header-navbar">
+                <a class="navbar-brand" href="#">آنلاین شاپ</a> 
+                <hr class="hr">    
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div id="header-navbar-item">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item" id="cart-icon">
-                            <i class="fa fa-cart-plus fa-2x"></i>
-                            <a class="nav-link" href="pages/cart.html">سبد خرید</a>
+                        <li class="nav-item dropdown">
+                            <a href="#men" class="nav-link dropdown-toggle" data-toggle="dropdown">مردانه</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">لباس مردانه</a>
+                                <a href="#" class="dropdown-item">کفش مردانه</a>
+                                <a href="#" class="dropdown-item">ورزشی مردانه</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#women" class="nav-link dropdown-toggle" data-toggle="dropdown">زنانه</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">لباس زنانه</a>
+                                <a href="#" class="dropdown-item">کفش زنانه</a>
+                                <a href="#" class="dropdown-item">ورزشی زنانه</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#child" class="nav-link dropdown-toggle" data-toggle="dropdown">بچگانه</a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item">نوزاد</a>
+                                <a href="#" class="dropdown-item">دخترانه</a>
+                                <a href="#" class="dropdown-item">پسرانه</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#newest">جدیدترین ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#specialsale">فروش ویژه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">درباره ما</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6 text-center" id="header-navbar">
-                    <a class="navbar-brand" href="#">آنلاین شاپ</a> 
-                    <hr class="hr">    
-                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button> -->
-                    <div id="header-navbar-item">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">خانه <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#men" class="nav-link dropdown-toggle" data-toggle="dropdown">مردانه</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">لباس مردانه</a>
-                                    <a href="#" class="dropdown-item">کفش مردانه</a>
-                                    <a href="#" class="dropdown-item">ورزشی مردانه</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#women" class="nav-link dropdown-toggle" data-toggle="dropdown">زنانه</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">لباس زنانه</a>
-                                    <a href="#" class="dropdown-item">کفش زنانه</a>
-                                    <a href="#" class="dropdown-item">ورزشی زنانه</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#child" class="nav-link dropdown-toggle" data-toggle="dropdown">بچگانه</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">نوزاد</a>
-                                    <a href="#" class="dropdown-item">دخترانه</a>
-                                    <a href="#" class="dropdown-item">پسرانه</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#newest">جدیدترین ها</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#specialsale">فروش ویژه</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">درباره ما</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3" id="header-search">
-                    <form class=" mr-auto">
-                        <div class="input-group">
-                            <div class="input-group-prepend order-2">
-                                <button class="btn btn-outline-light" type="button">
-                                جستجو
-                                </button>
-                            </div>
-                            <input type="text" class="form-control" placeholder="جستجوی محصولات..." aria-label="Example text with button addon" aria-describedby="button-addon1"/>
+            </div>
+            <div class="col-md-3" id="header-search">
+                <form class=" mr-auto">
+                    <div class="input-group">
+                        <div class="input-group-prepend order-2">
+                            <button class="btn btn-outline-light" type="button">
+                            جستجو
+                            </button>
                         </div>
-                    </form>
-                </div>
+                        <input type="text" class="form-control" placeholder="جستجوی محصولات..." aria-label="Example text with button addon" aria-describedby="button-addon1"/>
+                    </div>
+                </form>
             </div>
         </header>
     <!-- End Header -->
